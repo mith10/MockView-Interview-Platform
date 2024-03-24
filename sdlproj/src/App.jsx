@@ -1,19 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from 'react';
+import { useState } from 'react';
 import './App.css'
-import Pricing from './components/Pricing/Pricing'
 import FAQ from './components/FAQ/FAQ'
+import Pricing from './components/Pricing/Pricing';
+import Navbar from './components/Navbar';
+import AppSection from './components/AppSection';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
+    <Navbar />
+      <AppSection />
       <Pricing/>
       <FAQ/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+
+
