@@ -1,93 +1,10 @@
-/* Base styles */
-.navbar {
-  background-color: #fff3cd;
-  color: #333;
-  padding: 010px 10px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease;
-  position: relative;
-  width: 100%;
-  z-index: 1000;
-  display: flex;
-  justify-content: center;
+
+.nav-text{
+    margin-left: 15px;
 }
 
-.navbar:hover {
-  background-color: #f0e68c; /* Yellowish change in background on hover */
-  font-weight: bold; /* Make font bold on hover */
-}
-
-.navbar-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 90%; /* Adjusted to allow more flexibility */
-  margin: 0 auto;
-  padding: 0 20px; /* Add padding to accommodate smaller screens */
-}
-
-.logo-container {
-  flex: 0 0 auto;
-  margin-right: 20px; /* Add margin for spacing */
-}
-
-.logo-image {
-  max-height: 40px; /* Reduced logo height for better fit */
-  width: auto; /* Maintain aspect ratio */
-}
-
-.nav-links {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: #333; /* Dark font color */
-  font-weight: bold;
-  font-size: 1em; /* Adjusts proportionally with base font size */
-  margin-right: 15px; /* Adjusted margin for better spacing */
-  position: relative;
-  padding: 8px 12px; /* Add padding to create rectangular box */
-  border-radius: 20px; /* Make edges circular */
-  transition: background-color 0.3s ease; /* Add transition effect */
-}
-
-.nav-link:hover {
-  background-color: transparent; /* Remove background color on hover */
-  color: #f0e68c; /* Yellowish font color on hover */
-  font-weight: bold; /* Make font bold on hover */
-}
-
-.auth-buttons {
-  display: flex;
-  align-items: center;
-}
-
-.login-button,
-.join-button {
-  background-color: transparent;
-  color: #333; /* Dark font color */
-  font-weight: bold;
-  padding: 8px 15px; /* Adjusted padding for better fit */
-  border: 2px solid #333; /* Dark border */
-  border-radius: 20px; /* Make edges circular */
-  cursor: pointer;
-  transition: box-shadow 0.3s ease; /* Add transition effect */
-  margin-left: 15px; /* Adjusted margin between buttons */
-}
-
-.login-button:hover,
-.join-button:hover {
-  background-color: #333; /* Dark background color on hover */
-  color: #fff; /* White font color */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
-}
-
-.join-button {
-  background-color: #333; /* Dark background color */
-  color: #fff; /* White font color */
-  border: none;
+.logo{
+    margin-top:"-1px";
+    width: "55%";
+    height: "1%";
 }

@@ -1,44 +1,14 @@
-.app-section-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  
-  .app-section-content {
-    flex: 1;
-    padding-right: 50px;
-  }
-  
-  .app-section-heading {
-    font-size: 3rem;
-    margin: 0;
-    font-weight: bold;
-    font-family: Arial, sans-serif;
-    color: #333;
-    letter-spacing: 1px;
-  }
-  
-  .app-section-paragraph {
-    font-size: 1.5rem;
-    margin: 20px 0;
-    font-family: Arial, sans-serif;
-    text-align: justify;
-    color: #666;
-  }
-  
-  .app-section-image {
-    width: 700px;
-    height: auto;
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .app-section-image {
-      width: 50%;
-    }
-  
-    .app-section-heading {
-      font-size: 36px;
-    }
-  }
-  
+
+/* .interview-img{
+    width: 500px;
+} */
+
+h2{
+    color: #04364e;
+    font-weight: 800;
+}
+
+.sub-text{
+    margin-top: 50px;
+    color: #242526;
+}
