@@ -1,0 +1,84 @@
+/* Add this CSS to style the card */
+.topic-card {
+  background: #fff;
+  box-shadow: 1px 20px 12px -15px rgba(0, 0, 0, 0.2);
+  padding: 30px 15px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: 0.5s ease;
+  width: 18rem;
+  margin: 1rem;
+}
+
+.topic-card:hover {
+  transform: translateY(-5px);
+}
+
+.topic-card .card-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #242526;
+  margin-bottom: 20px;
+}
+
+.topic-card .btn-primary {
+  background: #04364e;
+  padding: 14px 30px;
+  line-height: normal;
+  color: #ffffff !important;
+  transition: all 0.3s ease 0s;
+  border-radius: 30px;
+  text-transform: capitalize !important;
+  cursor: pointer;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+}
+
+.topic-card .btn-primary:hover,
+.topic-card .btn-primary:focus {
+  background: #074a8d;
+}
+
+.topic-card .topic-link {
+  display: block;
+  padding: 14px 30px;
+  line-height: normal;
+  color: #ffffff !important;
+  transition: all 0.3s ease 0s;
+  border-radius: 30px;
+  text-transform: capitalize !important;
+  cursor: pointer;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  background: #04364e;
+  margin-top: 10px;
+}
+
+.topic-card .topic-link:hover {
+  background: #074a8d;
+}
+
+.topic-card .topic-arrow {
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.topic-card .topic-toggle-arrow {
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  border-right: 2px solid #ffffff;
+  border-top: 2px solid #ffffff;
+  transform: rotate(-45deg);
+  margin-left: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.topic-card .topic-toggle-arrow.open {
+  transform: rotate(135deg);
+}
