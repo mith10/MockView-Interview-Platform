@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import logo from '../../assets/logo1.png'
+import {Link} from "react-router-dom";
 import "./Navbar.css";
 
 
@@ -9,7 +10,7 @@ export default function Navbar() {
         <div  style={{marginTop:"-50px"}}>
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container-fluid">
-                    <img src={logo} className='logo'></img>
+                    <Link to="/"><img src={logo} className='logo'></img></Link>
                     <button className="navbar-toggler" type="button" onClick={() => setHamburgerCollapse(hamburgerCollapse=="" ? "show" : "")}>
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -17,20 +18,20 @@ export default function Navbar() {
 
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item nav-text">
-                                <a className="nav-link active" aria-current="page" href="#">Practice</a>
+                                <Link className="nav-link active" aria-current="page" to="/">Practice</Link>
                             </li>
                             <li className="nav-item nav-text">
-                                <a className="nav-link active" aria-current="page" href="#">Interview</a>
+                                <Link className="nav-link active" aria-current="page" to="/call">Interview</Link>
                             </li>
                             <li className="nav-item nav-text">
-                                <a className="nav-link active" aria-current="page" href="#">Find a Job</a>
+                                <Link className="nav-link active" aria-current="page" to="/">Find a Job</Link>
                             </li>
                         </ul>
 
                         <form className="d-flex">
                             <div className="container">
-                            <button className='btn' type='submit'>Login</button>
-                            <button className="btn btn-primary" type="submit">Signup</button>
+                            <Link to="/login"><button className='btn' type='submit'>Login</button></Link>
+                            <Link to="/signup"><button className="btn btn-primary" type="submit">Signup</button></Link>
                             </div>
                         </form>
                     </div>

@@ -1,0 +1,38 @@
+.call-container{
+    padding: 20px;
+}
+
+.call-input{
+    width: 18.2rem;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #00000096;
+    border-radius: 5px;
+    font-size: large;
+    color: #1f5289;
+    display: block;
+}
+
+
+.call-submit-button{
+    width: 12rem;
+    padding: 6px;
+    background: #003d7d;
+    color: white;
+    margin-top: 9px;
+    border: 2px solid #00000063;
+    border-radius: 8px;
+    font-size: larger;
+    margin: auto;
+    display: block;
+}
+
+@media screen and (max-width:350px){
+    .call-input{
+        width: 13rem;
+    }
+
+    .call-submit-button{
+        width: 8rem;
+    }
+}

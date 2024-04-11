@@ -1,0 +1,39 @@
+.video-player{
+    width: 600px!important;
+    height: 360px!important;
+}
+.send-stream{
+    display: inline-block !important;
+    margin: 8px !important;
+}
+.call{
+    display: inline-block !important;
+    margin: 8px !important;
+    background-color: #017e65;
+    border: 2px solid #003c2f;
+    width: 11rem;
+   
+    border-radius: 7px;
+}
+
+@media screen and (max-width:1200px){
+    .video-player{
+        width: 450px!important;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .video-player{
+        width: 350px!important;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .video-player{
+        width: 270px!important;
+        height: 300px !important;
+    }
+    .send-stream{
+        font-size: 15px;
+    }
+}
