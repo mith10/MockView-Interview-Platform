@@ -1,3 +1,4 @@
+
 // components/AppSection.jsx
 import React from 'react';
 import svgImage from '../../assets/interview.svg'; // Relative path to the SVG image

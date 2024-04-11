@@ -11,6 +11,7 @@ import LobbyScreen from "./screens/Lobby";
 import RoomPage from "./screens/Room";
 
 import { SocketProvider } from "./context/SocketProvider";
+import Practice from './components/Practice/Practice';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,9 +27,11 @@ function App() {
                   <Route path="/room/:roomId" element={<RoomPage />} />
                   <Route path="/login" element={<LoginPage />} />
                   <Route path="/signup" element={<SignupPage />} />
+                  <Route path='/practice' element={<Practice/>}/>
               </Routes>
             </SocketProvider>
       </BrowserRouter>
+      
     </>
   );
 }

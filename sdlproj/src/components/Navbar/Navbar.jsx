@@ -18,7 +18,7 @@ export default function Navbar() {
 
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item nav-text">
-                                <Link className="nav-link active" aria-current="page" to="/">Practice</Link>
+                                <Link className="nav-link active" aria-current="page" to="/practice">Practice</Link>
                             </li>
                             <li className="nav-item nav-text">
                                 <Link className="nav-link active" aria-current="page" to="/call">Interview</Link>
